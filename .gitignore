@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Evaluation artifacts
+cache/
+results/
+logs/
+*.npz
+
+# Checkpoints (do not commit weights)
+*.pth
+*.pt
+*.bin
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store

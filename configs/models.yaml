@@ -1,0 +1,11 @@
+# Paths below are defaults; override checkpoint at runtime via --checkpoint or CHECKPOINT env.
+dinov3_repo: ../dinov3
+
+models:
+  dinov3_vitb16:
+    family: dinov3
+    hub_name: dinov3_vitb16
+    weights: null
+    crop_size: 224
+    resize_size: 256
+    feature_dim: 768
